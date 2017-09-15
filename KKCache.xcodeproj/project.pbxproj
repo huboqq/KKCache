@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86F69A301F6121ED00C0E84C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A2F1F6121ED00C0E84C /* main.m */; };
+		86F69A331F6121ED00C0E84C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A321F6121ED00C0E84C /* AppDelegate.m */; };
+		86F69A361F6121ED00C0E84C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A351F6121ED00C0E84C /* ViewController.m */; };
+		86F69A391F6121ED00C0E84C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F69A371F6121ED00C0E84C /* Main.storyboard */; };
+		86F69A3B1F6121ED00C0E84C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86F69A3A1F6121ED00C0E84C /* Assets.xcassets */; };
+		86F69A3E1F6121ED00C0E84C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86F69A3C1F6121ED00C0E84C /* LaunchScreen.storyboard */; };
+		86F69A491F6121ED00C0E84C /* KKCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A481F6121ED00C0E84C /* KKCacheTests.m */; };
+		86F69A541F6121ED00C0E84C /* KKCacheUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A531F6121ED00C0E84C /* KKCacheUITests.m */; };
+		86F69A6D1F61221000C0E84C /* KKBackgroundTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A641F61221000C0E84C /* KKBackgroundTask.m */; };
+		86F69A6E1F61221000C0E84C /* KKDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A661F61221000C0E84C /* KKDiskCache.m */; };
+		86F69A6F1F61221000C0E84C /* KKCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A681F61221000C0E84C /* KKCache.m */; };
+		86F69A701F61221000C0E84C /* KKMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F69A6C1F61221000C0E84C /* KKMemoryCache.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86F69A451F6121ED00C0E84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F69A231F6121ED00C0E84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F69A2A1F6121ED00C0E84C;
+			remoteInfo = KKCache;
+		};
+		86F69A501F6121ED00C0E84C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86F69A231F6121ED00C0E84C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86F69A2A1F6121ED00C0E84C;
+			remoteInfo = KKCache;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86F69A2B1F6121ED00C0E84C /* KKCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F69A2F1F6121ED00C0E84C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86F69A311F6121ED00C0E84C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		86F69A321F6121ED00C0E84C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86F69A341F6121ED00C0E84C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		86F69A351F6121ED00C0E84C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86F69A381F6121ED00C0E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86F69A3A1F6121ED00C0E84C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F69A3D1F6121ED00C0E84C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86F69A3F1F6121ED00C0E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F69A441F6121ED00C0E84C /* KKCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F69A481F6121ED00C0E84C /* KKCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKCacheTests.m; sourceTree = "<group>"; };
+		86F69A4A1F6121ED00C0E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F69A4F1F6121ED00C0E84C /* KKCacheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKCacheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86F69A531F6121ED00C0E84C /* KKCacheUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKCacheUITests.m; sourceTree = "<group>"; };
+		86F69A551F6121ED00C0E84C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86F69A631F61221000C0E84C /* KKBackgroundTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKBackgroundTask.h; sourceTree = "<group>"; };
+		86F69A641F61221000C0E84C /* KKBackgroundTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKBackgroundTask.m; sourceTree = "<group>"; };
+		86F69A651F61221000C0E84C /* KKDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKDiskCache.h; sourceTree = "<group>"; };
+		86F69A661F61221000C0E84C /* KKDiskCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKDiskCache.m; sourceTree = "<group>"; };
+		86F69A671F61221000C0E84C /* KKCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCache.h; sourceTree = "<group>"; };
+		86F69A681F61221000C0E84C /* KKCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKCache.m; sourceTree = "<group>"; };
+		86F69A691F61221000C0E84C /* KKCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCacheProtocol.h; sourceTree = "<group>"; };
+		86F69A6B1F61221000C0E84C /* KKMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKMemoryCache.h; sourceTree = "<group>"; };
+		86F69A6C1F61221000C0E84C /* KKMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKMemoryCache.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86F69A281F6121ED00C0E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A411F6121ED00C0E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A4C1F6121ED00C0E84C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86F69A221F6121ED00C0E84C = {
+			isa = PBXGroup;
+			children = (
+				86F69A2D1F6121ED00C0E84C /* KKCache */,
+				86F69A471F6121ED00C0E84C /* KKCacheTests */,
+				86F69A521F6121ED00C0E84C /* KKCacheUITests */,
+				86F69A2C1F6121ED00C0E84C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86F69A2C1F6121ED00C0E84C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A2B1F6121ED00C0E84C /* KKCache.app */,
+				86F69A441F6121ED00C0E84C /* KKCacheTests.xctest */,
+				86F69A4F1F6121ED00C0E84C /* KKCacheUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86F69A2D1F6121ED00C0E84C /* KKCache */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A611F61221000C0E84C /* KKCache */,
+				86F69A311F6121ED00C0E84C /* AppDelegate.h */,
+				86F69A321F6121ED00C0E84C /* AppDelegate.m */,
+				86F69A341F6121ED00C0E84C /* ViewController.h */,
+				86F69A351F6121ED00C0E84C /* ViewController.m */,
+				86F69A371F6121ED00C0E84C /* Main.storyboard */,
+				86F69A3A1F6121ED00C0E84C /* Assets.xcassets */,
+				86F69A3C1F6121ED00C0E84C /* LaunchScreen.storyboard */,
+				86F69A3F1F6121ED00C0E84C /* Info.plist */,
+				86F69A2E1F6121ED00C0E84C /* Supporting Files */,
+			);
+			path = KKCache;
+			sourceTree = "<group>";
+		};
+		86F69A2E1F6121ED00C0E84C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A2F1F6121ED00C0E84C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86F69A471F6121ED00C0E84C /* KKCacheTests */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A481F6121ED00C0E84C /* KKCacheTests.m */,
+				86F69A4A1F6121ED00C0E84C /* Info.plist */,
+			);
+			path = KKCacheTests;
+			sourceTree = "<group>";
+		};
+		86F69A521F6121ED00C0E84C /* KKCacheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A531F6121ED00C0E84C /* KKCacheUITests.m */,
+				86F69A551F6121ED00C0E84C /* Info.plist */,
+			);
+			path = KKCacheUITests;
+			sourceTree = "<group>";
+		};
+		86F69A611F61221000C0E84C /* KKCache */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A621F61221000C0E84C /* Disk */,
+				86F69A671F61221000C0E84C /* KKCache.h */,
+				86F69A681F61221000C0E84C /* KKCache.m */,
+				86F69A691F61221000C0E84C /* KKCacheProtocol.h */,
+				86F69A6A1F61221000C0E84C /* Memory */,
+			);
+			path = KKCache;
+			sourceTree = "<group>";
+		};
+		86F69A621F61221000C0E84C /* Disk */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A631F61221000C0E84C /* KKBackgroundTask.h */,
+				86F69A641F61221000C0E84C /* KKBackgroundTask.m */,
+				86F69A651F61221000C0E84C /* KKDiskCache.h */,
+				86F69A661F61221000C0E84C /* KKDiskCache.m */,
+			);
+			path = Disk;
+			sourceTree = "<group>";
+		};
+		86F69A6A1F61221000C0E84C /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				86F69A6B1F61221000C0E84C /* KKMemoryCache.h */,
+				86F69A6C1F61221000C0E84C /* KKMemoryCache.m */,
+			);
+			path = Memory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86F69A2A1F6121ED00C0E84C /* KKCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F69A581F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCache" */;
+			buildPhases = (
+				86F69A271F6121ED00C0E84C /* Sources */,
+				86F69A281F6121ED00C0E84C /* Frameworks */,
+				86F69A291F6121ED00C0E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKCache;
+			productName = KKCache;
+			productReference = 86F69A2B1F6121ED00C0E84C /* KKCache.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86F69A431F6121ED00C0E84C /* KKCacheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F69A5B1F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCacheTests" */;
+			buildPhases = (
+				86F69A401F6121ED00C0E84C /* Sources */,
+				86F69A411F6121ED00C0E84C /* Frameworks */,
+				86F69A421F6121ED00C0E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F69A461F6121ED00C0E84C /* PBXTargetDependency */,
+			);
+			name = KKCacheTests;
+			productName = KKCacheTests;
+			productReference = 86F69A441F6121ED00C0E84C /* KKCacheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86F69A4E1F6121ED00C0E84C /* KKCacheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86F69A5E1F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCacheUITests" */;
+			buildPhases = (
+				86F69A4B1F6121ED00C0E84C /* Sources */,
+				86F69A4C1F6121ED00C0E84C /* Frameworks */,
+				86F69A4D1F6121ED00C0E84C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86F69A511F6121ED00C0E84C /* PBXTargetDependency */,
+			);
+			name = KKCacheUITests;
+			productName = KKCacheUITests;
+			productReference = 86F69A4F1F6121ED00C0E84C /* KKCacheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86F69A231F6121ED00C0E84C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = nice;
+				TargetAttributes = {
+					86F69A2A1F6121ED00C0E84C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9437NAGUWD;
+						ProvisioningStyle = Automatic;
+					};
+					86F69A431F6121ED00C0E84C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9437NAGUWD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86F69A2A1F6121ED00C0E84C;
+					};
+					86F69A4E1F6121ED00C0E84C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9437NAGUWD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86F69A2A1F6121ED00C0E84C;
+					};
+				};
+			};
+			buildConfigurationList = 86F69A261F6121ED00C0E84C /* Build configuration list for PBXProject "KKCache" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86F69A221F6121ED00C0E84C;
+			productRefGroup = 86F69A2C1F6121ED00C0E84C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86F69A2A1F6121ED00C0E84C /* KKCache */,
+				86F69A431F6121ED00C0E84C /* KKCacheTests */,
+				86F69A4E1F6121ED00C0E84C /* KKCacheUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86F69A291F6121ED00C0E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F69A3E1F6121ED00C0E84C /* LaunchScreen.storyboard in Resources */,
+				86F69A3B1F6121ED00C0E84C /* Assets.xcassets in Resources */,
+				86F69A391F6121ED00C0E84C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A421F6121ED00C0E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A4D1F6121ED00C0E84C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86F69A271F6121ED00C0E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F69A6F1F61221000C0E84C /* KKCache.m in Sources */,
+				86F69A361F6121ED00C0E84C /* ViewController.m in Sources */,
+				86F69A331F6121ED00C0E84C /* AppDelegate.m in Sources */,
+				86F69A701F61221000C0E84C /* KKMemoryCache.m in Sources */,
+				86F69A6D1F61221000C0E84C /* KKBackgroundTask.m in Sources */,
+				86F69A6E1F61221000C0E84C /* KKDiskCache.m in Sources */,
+				86F69A301F6121ED00C0E84C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A401F6121ED00C0E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F69A491F6121ED00C0E84C /* KKCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86F69A4B1F6121ED00C0E84C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F69A541F6121ED00C0E84C /* KKCacheUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86F69A461F6121ED00C0E84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F69A2A1F6121ED00C0E84C /* KKCache */;
+			targetProxy = 86F69A451F6121ED00C0E84C /* PBXContainerItemProxy */;
+		};
+		86F69A511F6121ED00C0E84C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86F69A2A1F6121ED00C0E84C /* KKCache */;
+			targetProxy = 86F69A501F6121ED00C0E84C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86F69A371F6121ED00C0E84C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F69A381F6121ED00C0E84C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86F69A3C1F6121ED00C0E84C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86F69A3D1F6121ED00C0E84C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86F69A561F6121ED00C0E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86F69A571F6121ED00C0E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86F69A591F6121ED00C0E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		86F69A5A1F6121ED00C0E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCache/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCache;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		86F69A5C1F6121ED00C0E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKCache.app/KKCache";
+			};
+			name = Debug;
+		};
+		86F69A5D1F6121ED00C0E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCacheTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCacheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKCache.app/KKCache";
+			};
+			name = Release;
+		};
+		86F69A5F1F6121ED00C0E84C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKCache;
+			};
+			name = Debug;
+		};
+		86F69A601F6121ED00C0E84C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9437NAGUWD;
+				INFOPLIST_FILE = KKCacheUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nice.KKCacheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KKCache;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86F69A261F6121ED00C0E84C /* Build configuration list for PBXProject "KKCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F69A561F6121ED00C0E84C /* Debug */,
+				86F69A571F6121ED00C0E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86F69A581F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F69A591F6121ED00C0E84C /* Debug */,
+				86F69A5A1F6121ED00C0E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F69A5B1F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCacheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F69A5C1F6121ED00C0E84C /* Debug */,
+				86F69A5D1F6121ED00C0E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86F69A5E1F6121ED00C0E84C /* Build configuration list for PBXNativeTarget "KKCacheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86F69A5F1F6121ED00C0E84C /* Debug */,
+				86F69A601F6121ED00C0E84C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86F69A231F6121ED00C0E84C /* Project object */;
+}
